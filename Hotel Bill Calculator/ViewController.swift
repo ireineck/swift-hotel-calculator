@@ -23,5 +23,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var Nights: UITextField!
   @IBOutlet weak var Rate: UITextField!
 
+  @IBAction func Calculate(sender: AnyObject) {
+  }
 }
 

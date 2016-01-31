@@ -20,10 +20,12 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-  @IBOutlet weak var Nights: UITextField!
-  @IBOutlet weak var Rate: UITextField!
-
-  @IBAction func Calculate(sender: AnyObject) {
+  @IBOutlet weak var lblNights: UITextField!
+  @IBOutlet weak var lblRate: UITextField!
+  
+  @IBAction func btnCalculate(sender: AnyObject) {
   }
+  
 }
+
 

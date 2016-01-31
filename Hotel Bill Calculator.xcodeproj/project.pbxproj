@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E79A1D1C5E6C96002379A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E79A1C1C5E6C96002379A9 /* AppDelegate.swift */; };
+		C4E79A1F1C5E6C96002379A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E79A1E1C5E6C96002379A9 /* ViewController.swift */; };
+		C4E79A221C5E6C96002379A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E79A201C5E6C96002379A9 /* Main.storyboard */; };
+		C4E79A241C5E6C96002379A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E79A231C5E6C96002379A9 /* Assets.xcassets */; };
+		C4E79A271C5E6C96002379A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E79A251C5E6C96002379A9 /* LaunchScreen.storyboard */; };
+		C4E79A321C5E6C96002379A9 /* Hotel_Bill_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E79A311C5E6C96002379A9 /* Hotel_Bill_CalculatorTests.swift */; };
+		C4E79A3D1C5E6C96002379A9 /* Hotel_Bill_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E79A3C1C5E6C96002379A9 /* Hotel_Bill_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E79A2E1C5E6C96002379A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E79A111C5E6C96002379A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E79A181C5E6C96002379A9;
+			remoteInfo = "Hotel Bill Calculator";
+		};
+		C4E79A391C5E6C96002379A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E79A111C5E6C96002379A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E79A181C5E6C96002379A9;
+			remoteInfo = "Hotel Bill Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E79A191C5E6C96002379A9 /* Hotel Bill Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Bill Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E79A1C1C5E6C96002379A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4E79A1E1C5E6C96002379A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E79A211C5E6C96002379A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E79A231C5E6C96002379A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E79A261C5E6C96002379A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E79A281C5E6C96002379A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E79A2D1C5E6C96002379A9 /* Hotel Bill CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel Bill CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E79A311C5E6C96002379A9 /* Hotel_Bill_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_Bill_CalculatorTests.swift; sourceTree = "<group>"; };
+		C4E79A331C5E6C96002379A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E79A381C5E6C96002379A9 /* Hotel Bill CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel Bill CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E79A3C1C5E6C96002379A9 /* Hotel_Bill_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_Bill_CalculatorUITests.swift; sourceTree = "<group>"; };
+		C4E79A3E1C5E6C96002379A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E79A161C5E6C96002379A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E79A2A1C5E6C96002379A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E79A351C5E6C96002379A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E79A101C5E6C96002379A9 = {
+			isa = PBXGroup;
+			children = (
+				C4E79A1B1C5E6C96002379A9 /* Hotel Bill Calculator */,
+				C4E79A301C5E6C96002379A9 /* Hotel Bill CalculatorTests */,
+				C4E79A3B1C5E6C96002379A9 /* Hotel Bill CalculatorUITests */,
+				C4E79A1A1C5E6C96002379A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E79A1A1C5E6C96002379A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E79A191C5E6C96002379A9 /* Hotel Bill Calculator.app */,
+				C4E79A2D1C5E6C96002379A9 /* Hotel Bill CalculatorTests.xctest */,
+				C4E79A381C5E6C96002379A9 /* Hotel Bill CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E79A1B1C5E6C96002379A9 /* Hotel Bill Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C4E79A1C1C5E6C96002379A9 /* AppDelegate.swift */,
+				C4E79A1E1C5E6C96002379A9 /* ViewController.swift */,
+				C4E79A201C5E6C96002379A9 /* Main.storyboard */,
+				C4E79A231C5E6C96002379A9 /* Assets.xcassets */,
+				C4E79A251C5E6C96002379A9 /* LaunchScreen.storyboard */,
+				C4E79A281C5E6C96002379A9 /* Info.plist */,
+			);
+			path = "Hotel Bill Calculator";
+			sourceTree = "<group>";
+		};
+		C4E79A301C5E6C96002379A9 /* Hotel Bill CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E79A311C5E6C96002379A9 /* Hotel_Bill_CalculatorTests.swift */,
+				C4E79A331C5E6C96002379A9 /* Info.plist */,
+			);
+			path = "Hotel Bill CalculatorTests";
+			sourceTree = "<group>";
+		};
+		C4E79A3B1C5E6C96002379A9 /* Hotel Bill CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E79A3C1C5E6C96002379A9 /* Hotel_Bill_CalculatorUITests.swift */,
+				C4E79A3E1C5E6C96002379A9 /* Info.plist */,
+			);
+			path = "Hotel Bill CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E79A181C5E6C96002379A9 /* Hotel Bill Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E79A411C5E6C96002379A9 /* Build configuration list for PBXNativeTarget "Hotel Bill Calculator" */;
+			buildPhases = (
+				C4E79A151C5E6C96002379A9 /* Sources */,
+				C4E79A161C5E6C96002379A9 /* Frameworks */,
+				C4E79A171C5E6C96002379A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hotel Bill Calculator";
+			productName = "Hotel Bill Calculator";
+			productReference = C4E79A191C5E6C96002379A9 /* Hotel Bill Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E79A2C1C5E6C96002379A9 /* Hotel Bill CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E79A441C5E6C96002379A9 /* Build configuration list for PBXNativeTarget "Hotel Bill CalculatorTests" */;
+			buildPhases = (
+				C4E79A291C5E6C96002379A9 /* Sources */,
+				C4E79A2A1C5E6C96002379A9 /* Frameworks */,
+				C4E79A2B1C5E6C96002379A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E79A2F1C5E6C96002379A9 /* PBXTargetDependency */,
+			);
+			name = "Hotel Bill CalculatorTests";
+			productName = "Hotel Bill CalculatorTests";
+			productReference = C4E79A2D1C5E6C96002379A9 /* Hotel Bill CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E79A371C5E6C96002379A9 /* Hotel Bill CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E79A471C5E6C96002379A9 /* Build configuration list for PBXNativeTarget "Hotel Bill CalculatorUITests" */;
+			buildPhases = (
+				C4E79A341C5E6C96002379A9 /* Sources */,
+				C4E79A351C5E6C96002379A9 /* Frameworks */,
+				C4E79A361C5E6C96002379A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E79A3A1C5E6C96002379A9 /* PBXTargetDependency */,
+			);
+			name = "Hotel Bill CalculatorUITests";
+			productName = "Hotel Bill CalculatorUITests";
+			productReference = C4E79A381C5E6C96002379A9 /* Hotel Bill CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E79A111C5E6C96002379A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ian Reineck";
+				TargetAttributes = {
+					C4E79A181C5E6C96002379A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C4E79A2C1C5E6C96002379A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C4E79A181C5E6C96002379A9;
+					};
+					C4E79A371C5E6C96002379A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C4E79A181C5E6C96002379A9;
+					};
+				};
+			};
+			buildConfigurationList = C4E79A141C5E6C96002379A9 /* Build configuration list for PBXProject "Hotel Bill Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E79A101C5E6C96002379A9;
+			productRefGroup = C4E79A1A1C5E6C96002379A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E79A181C5E6C96002379A9 /* Hotel Bill Calculator */,
+				C4E79A2C1C5E6C96002379A9 /* Hotel Bill CalculatorTests */,
+				C4E79A371C5E6C96002379A9 /* Hotel Bill CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E79A171C5E6C96002379A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E79A271C5E6C96002379A9 /* LaunchScreen.storyboard in Resources */,
+				C4E79A241C5E6C96002379A9 /* Assets.xcassets in Resources */,
+				C4E79A221C5E6C96002379A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E79A2B1C5E6C96002379A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E79A361C5E6C96002379A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E79A151C5E6C96002379A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E79A1F1C5E6C96002379A9 /* ViewController.swift in Sources */,
+				C4E79A1D1C5E6C96002379A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E79A291C5E6C96002379A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E79A321C5E6C96002379A9 /* Hotel_Bill_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E79A341C5E6C96002379A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E79A3D1C5E6C96002379A9 /* Hotel_Bill_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E79A2F1C5E6C96002379A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E79A181C5E6C96002379A9 /* Hotel Bill Calculator */;
+			targetProxy = C4E79A2E1C5E6C96002379A9 /* PBXContainerItemProxy */;
+		};
+		C4E79A3A1C5E6C96002379A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E79A181C5E6C96002379A9 /* Hotel Bill Calculator */;
+			targetProxy = C4E79A391C5E6C96002379A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E79A201C5E6C96002379A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E79A211C5E6C96002379A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E79A251C5E6C96002379A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E79A261C5E6C96002379A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E79A3F1C5E6C96002379A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4E79A401C5E6C96002379A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E79A421C5E6C96002379A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hotel Bill Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ianreineck.Hotel-Bill-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E79A431C5E6C96002379A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hotel Bill Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ianreineck.Hotel-Bill-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E79A451C5E6C96002379A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hotel Bill CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ianreineck.Hotel-Bill-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel Bill Calculator.app/Hotel Bill Calculator";
+			};
+			name = Debug;
+		};
+		C4E79A461C5E6C96002379A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hotel Bill CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ianreineck.Hotel-Bill-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel Bill Calculator.app/Hotel Bill Calculator";
+			};
+			name = Release;
+		};
+		C4E79A481C5E6C96002379A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hotel Bill CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ianreineck.Hotel-Bill-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hotel Bill Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4E79A491C5E6C96002379A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hotel Bill CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ianreineck.Hotel-Bill-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hotel Bill Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E79A141C5E6C96002379A9 /* Build configuration list for PBXProject "Hotel Bill Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E79A3F1C5E6C96002379A9 /* Debug */,
+				C4E79A401C5E6C96002379A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E79A411C5E6C96002379A9 /* Build configuration list for PBXNativeTarget "Hotel Bill Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E79A421C5E6C96002379A9 /* Debug */,
+				C4E79A431C5E6C96002379A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E79A441C5E6C96002379A9 /* Build configuration list for PBXNativeTarget "Hotel Bill CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E79A451C5E6C96002379A9 /* Debug */,
+				C4E79A461C5E6C96002379A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E79A471C5E6C96002379A9 /* Build configuration list for PBXNativeTarget "Hotel Bill CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E79A481C5E6C96002379A9 /* Debug */,
+				C4E79A491C5E6C96002379A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E79A111C5E6C96002379A9 /* Project object */;
+}

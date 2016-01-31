@@ -69,7 +69,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="45" y="238" width="38" height="21"/>
+                                    <rect key="frame" x="211" y="226" width="38" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -97,6 +97,7 @@
                     </view>
                     <connections>
                         <outlet property="Rate" destination="8kO-Tx-pmS" id="8IC-b4-swF"/>
+                        <outlet property="Total" destination="5Qv-ts-hRa" id="8Zt-nq-rX1"/>
                         <outlet property="btnCalculate" destination="gbf-My-Rsm" id="Ady-BZ-L85"/>
                         <outlet property="lblRate" destination="8kO-Tx-pmS" id="KFl-PS-AR4"/>
                     </connections>

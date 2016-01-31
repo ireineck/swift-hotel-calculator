@@ -22,8 +22,20 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var lblNights: UITextField!
   @IBOutlet weak var lblRate: UITextField!
+  @IBOutlet weak var Total: UILabel!
   
   @IBAction func btnCalculate(sender: AnyObject) {
+    print ("button pushed")
+    
+    if let numNights = lblNights.text.toInt(){
+      if let myRate = lblRate.text.toInt(){
+        var myTotal = numNights * myRate
+        print (myTotal)
+        Total.text = "Your total is \(myTotal)"
+        
+      }
+    }
+    
   }
   
 }
